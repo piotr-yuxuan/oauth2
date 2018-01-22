@@ -35,6 +35,13 @@
 
 ;;; Code:
 
+(defvar url-http-method)
+(defvar url-http-data)
+(defvar url-http-extra-headers)
+(defvar oauth--token-data)
+(defvar url-callback-function)
+(defvar url-callback-arguments)
+
 (eval-when-compile (require 'cl))
 (require 'plstore)
 (require 'json)
